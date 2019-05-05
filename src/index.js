@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { createGlobalStyle } from "styled-components";
 import Gesture from "./Gesture";
+import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Catamaran');
   *{
     margin: 0;
@@ -13,7 +13,6 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Catamaran', serif;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#020015,#0D003A);
     color: #fff;
     display: flex;
     justify-content: center;
